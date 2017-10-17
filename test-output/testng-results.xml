@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoSuite" duration-ms="13886" started-at="2017-10-17T13:32:37Z" finished-at="2017-10-17T13:32:51Z">
+    <groups>
+    </groups>
+    <test name="AccountTest" duration-ms="13886" started-at="2017-10-17T13:32:37Z" finished-at="2017-10-17T13:32:51Z">
+      <class name="seleniumFramework.CreateAccountTest">
+        <test-method status="PASS" signature="setBrows()[pri:0, instance:seleniumFramework.CreateAccountTest@4501b7af]" name="setBrows" is-config="true" duration-ms="4157" started-at="2017-10-17T09:32:33Z" finished-at="2017-10-17T09:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrows -->
+        <test-method status="PASS" signature="openurl()[pri:1, instance:seleniumFramework.CreateAccountTest@4501b7af]" name="openurl" duration-ms="11259" started-at="2017-10-17T09:32:37Z" finished-at="2017-10-17T09:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="creatAcc()[pri:2, instance:seleniumFramework.CreateAccountTest@4501b7af]" name="creatAcc" duration-ms="2609" started-at="2017-10-17T09:32:48Z" finished-at="2017-10-17T09:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatAcc -->
+      </class> <!-- seleniumFramework.CreateAccountTest -->
+    </test> <!-- AccountTest -->
+  </suite> <!-- DemoSuite -->
+</testng-results>
