@@ -22,8 +22,12 @@ setBrowser("chrome");
 	 oHomePage=new HomePage(driver);
 	 oHomePage.signIn.click();
 	clickWebElement(oHomePage.creatAcc);
-	closeUrl();
+	
 	 
+ }
+ @Test (priority=3)
+ public void close(){
+	 closeUrl();
  }
 	
 	
